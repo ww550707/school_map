@@ -1,6 +1,6 @@
 <view class="all">
 
-  <view class="normal-text">
+  <view class="normal-text" bindtap="onTap_github">
     <text>版本号: <text>1.0.0</text></text>
   </view>
 
@@ -10,6 +10,22 @@
 
   <view class="normal-text">
     <text>如有错误请发邮件至 <text>ww550707@qq.com </text>与我联系</text>
+  </view>
+
+  <view class="normal-text" bindtap="onTap_back">
+    <text style="color:red">点击这里返回</text>
+  </view>
+
+  <view class="normal-text">
+    <text>没了</text>
+  </view>
+
+  <view class="normal-text" style="display:{{item_hedden}}">
+    <text>github : https://github.com/ww550707/school_map</text>
+  </view>
+
+  <view class="normal-text" style="display:{{item_hedden}}">
+    <text>目前为止，真的没了</text>
   </view>
 
   <view>

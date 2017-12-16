@@ -50,14 +50,13 @@ Page({
     tip_hedden: "none",
     start_point_text_color: "#666",
     end_point_text_color: "#666",
-    all_way_check_color:"#011125"
+    all_way_check_color: "#011125"
   },
 
-  onTap_more:function(event){
-        wx.navigateTo({
-          url: "../mores/more"
-        });
-
+  onTap_more: function (event) {
+    wx.navigateTo({
+      url: "../mores/more"
+    });
   },
 
   onReady: function () {
@@ -267,7 +266,7 @@ Page({
       flag_end = 1;
 
       //让特殊点的颜色变红
-      
+
       for (var i = 0; i < special_point.length; i++) {
         if (end == special_point[i]) {
           this.setData({

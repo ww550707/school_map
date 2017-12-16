@@ -1,0 +1,147 @@
+.all{
+  background-color: #011125;
+}
+
+.map {
+  width: 750rpx;
+  height: 1001rpx;
+}
+
+.four-map {
+  width: 750rpx;
+  height: 1001rpx;
+}
+
+.start_end_text {
+  margin-left: 30rpx;
+}
+
+
+.big_box{
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #405f80;
+}
+
+
+.inputbox {
+  border: 1px solid #405f80;
+  float: right;
+  width: 325rpx;
+  margin-left: 10rpx;
+  color:whitesmoke;
+  height: 10px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #405f80;
+  margin-top: 5px;
+  margin-left: 10rpx;
+  height: 50px;
+  width: 355rpx;
+}
+
+.button-container {
+  margin-left: 10rpx;
+  border: 1px solid #405f80;
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button {
+  font-size: 20rpx;
+  font-weight: bold;
+  color: #405f80;
+}
+
+.test {
+  font-size: 50rpx;
+  margin-left: 40rpx;
+}
+
+.button-flood {
+  margin-left: 43rpx;
+  margin-top: 10rpx;
+  width: 100rpx;
+  height: 50rpx;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.button-flood-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-flood-text {
+  font-size: 40rpx;
+  text-align:center;
+  color:white;
+}
+
+.test-button-flood{
+  display: flex;
+  flex-direction: row;
+}
+
+.line{
+  height: 4px;
+  background: black;
+}
+
+.color_example{
+  display: flex;
+  flex-direction: row;
+  height: 35rpx;
+  background-color: #212830;
+}
+
+.color_example_item{
+  margin-left: 50rpx;
+  border: 1px solid #405f80;
+  height: 20rpx;
+  width: 20rpx;
+}
+
+.color_example_text{
+  margin-left: 10rpx;
+  font-size: 20rpx;
+}
+
+.check-all-way-text{
+  color:whitesmoke;
+  margin-top: 10rpx;
+  margin-left: 15rpx;
+  font-size: 25rpx;
+}
+
+.ckeck-all-way{
+  margin-left: 10rpx;
+  border: 1px solid #405f80;
+  margin-top: 15rpx;
+  height: 20rpx;
+  width: 20rpx;
+    background-color: red;
+}
+
+.button-check-all-way{
+  border-radius: 25px;
+  margin-left: 15rpx;
+  display: flex;
+  margin-top: 9rpx;
+}
+
+.button-more {
+  margin-left: 43rpx;
+  margin-top: 10rpx;
+  width: 70rpx;
+  height: 50rpx;
+  border-radius: 25px;
+  text-align: center;
+}

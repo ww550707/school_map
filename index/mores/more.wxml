@@ -1,0 +1,18 @@
+<view class="all">
+
+  <view class="normal-text">
+    <text>版本号: <text>1.0.0</text></text>
+  </view>
+
+  <view class="normal-text">
+    <text>平面图更新日期： <text>2017-12-16</text></text>
+  </view>
+
+  <view class="normal-text">
+    <text>如有错误请发邮件至 <text>ww550707@qq.com </text>与我联系</text>
+  </view>
+
+  <view>
+
+  </view>
+</view>

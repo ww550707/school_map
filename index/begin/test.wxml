@@ -1,0 +1,46 @@
+<swiper class="four-map" indicator- dots="true">
+  <swiper-item>
+    <!--<image class="map" src= "/image/1L0.9.jpg" > </image>  style="border: 1px solid;"   -->
+    <canvas class="map" canvas- id="map1" />
+  </swiper-item>
+  <swiper-item>
+    <!--<image class="map" src= "/image/2L0.9.jpg" > </image>-->
+    < canvas class="map" canvas- id="map2" />
+  </swiper-item>
+  <swiper-item>
+    <image class="map" src="/image/3L0.9.jpg"> </image>
+  </swiper-item>
+  <swiper-item>
+    <image class="map" src="/image/4L0.9.jpg"> </image>
+  </swiper-item>
+</swiper>
+
+    
+    <view class="button-flood" style="background-color:#954d9e" bindtap="onTap_flood_0">
+      <text class="button-flood-text">总览</text>
+    </view>
+    
+    <view>
+      <text class="button-flood-text">总览</text>
+      <switch class="all_way_switch" checked bindchange="check_all_way"/>
+    </view>
+
+<view>
+    <view class="box">
+      <text class="start_end_text">输入你在的房间</text>
+      <input class="inputbox" type="text" bindblur="get_start"></input>
+    </view>
+    <view class="box">
+      <text class="start_end_text">输入要去的房间</text>
+      <input class="inputbox" type="text" bindblur="get_end"></input>
+      <view class="button-container" bindtap="onTap_getway">
+        <text class="button">go</text>
+      </view>
+    </view>
+  </view>
+
+  <text class="test">从 {{test_text_start}} 到 {{test_text_end}}</text>
+
+      <view class="button-flood" style="background-color:#954d9e" bindtap="onTap_flood_0">
+      <text class="button-flood-text">路线总览</text>
+    </view>

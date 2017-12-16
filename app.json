@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "index/begin/start",
+    "index/mores/more"
+    
+    
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#011125"
+
+  }
+}

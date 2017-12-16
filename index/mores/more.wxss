@@ -1,0 +1,7 @@
+page {
+  background-color: #011125;
+}
+
+.normal-text {
+  margin-left:20rpx;
+}

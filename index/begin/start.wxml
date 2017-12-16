@@ -1,0 +1,73 @@
+<view class="all">
+  <view>
+    <canvas class="map" canvas-id="map" />
+  </view>
+
+  <view class="color_example" style="display:{{tip_hedden}}">
+    <view class="color_example_item" style="background-color:{{floor_color_1}}"></view>
+    <text class="color_example_text">1L</text>
+    <view class="color_example_item" style="background-color:{{floor_color_2}}"></view>
+    <text class="color_example_text">2L</text>
+    <view class="color_example_item" style="background-color:{{floor_color_3}}"></view>
+    <text class="color_example_text">3L</text>
+    <view class="color_example_item" style="background-color:{{floor_color_4}}"></view>
+    <text class="color_example_text">4L</text>
+    <view class="color_example_item" style="background-color:{{start_point_color}}"></view>
+    <text class="color_example_text">起点</text>
+    <view class="color_example_item" style="background-color:{{end_point_color}}"></view>
+    <text class="color_example_text">终点</text>
+  </view>
+
+  <view class="line"></view>
+
+  <view class="button-flood-box" >
+    <view class="button-flood" style="background-color:#8eba5b" bindtap="onTap_flood_1">
+      <text class="button-flood-text">1L</text>
+    </view>
+    <view class="button-flood" style="background-color:#7abbf9" bindtap="onTap_flood_2">
+      <text class="button-flood-text">2L</text>
+    </view>
+    <view class="button-flood" style="background-color:#fff780" bindtap="onTap_flood_3">
+      <text class="button-flood-text">3L</text>
+    </view>
+    <view class="button-flood" style="background-color:#eb7375" bindtap="onTap_flood_4">
+      <text class="button-flood-text">4L</text>
+    </view>
+    <view class="button-check-all-way"  bindtap="onTap_flood_0">
+      <text class="check-all-way-text">路线总览</text>
+      <view class="ckeck-all-way" style="background-color:{{all_way_check_color}}"></view>
+    </view>
+  </view>
+
+  <view>
+    <text class="test" style="font-size: 50rpx">从 <text style="color:{{start_point_text_color}};font-size: 50rpx">{{test_text_start}} </text>到 <text style="color:{{end_point_text_color}};font-size: 50rpx">{{test_text_end}}</text></text>
+    <!-- <text class="test">到 {{test_text_end}}</text> -->
+    <view class="test-button-flood">
+<!--
+      <view class="button-flood" style="background-color:red" bindtap="onTap_test_point">
+        <text class="button-flood-text" style="font-size: 30rpx">测试</text>
+      </view>
+-->
+      <view class="button-flood" style="background-color:orange ; width:150rpx" bindtap="onTap_getway">
+        <text class="button-flood-text" style="font-size: 30rpx">生成路线</text>
+      </view>
+      <view class="button-flood" style="background-color:#a1a1a1 ; width:150rpx" bindtap="onTap_cleanway">
+        <text class="button-flood-text" style="font-size: 30rpx">清除路线</text>
+      </view>
+      <view class="button-more" style="background-color:gray" bindtap="onTap_more">
+        <text class="button-flood-text" style="font-size: 30rpx">...</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="big_box">
+    <view class="box">
+      <text class="start_end_text">输入你在的房间/入口号码</text>
+      <input class="inputbox" type="text" bindblur="get_start"></input>
+    </view>
+    <view class="box">
+      <text class="start_end_text">输入要去的房间/出口号码</text>
+      <input class="inputbox" type="text" bindblur="get_end"></input>
+    </view>
+  </view>
+</view>

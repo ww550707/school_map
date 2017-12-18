@@ -82,7 +82,7 @@
 .button-flood-text {
   font-size: 40rpx;
   text-align:center;
-  color:white;
+  color:#666;
 }
 
 .test-button-flood{
